@@ -1,0 +1,190 @@
+* {
+  box-shadow: none;
+}
+body {
+  /* overflow-x: hidden; */
+  /* max-width: 1440px; */
+  margin: auto !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+.btn-glass {
+  width: 250px;
+  height: 65px;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+  background-color: none !important;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #ffffff !important;
+  box-sizing: border-box;
+  backdrop-filter: blur(7px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 10px !important;
+  transition: 0.4s ease-in-out !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  line-height: 3.2 !important;
+}
+.btn-glass:hover {
+  backdrop-filter: blur(0px);
+  background-color: none !important;
+  background: rgba(0, 0, 0, 0);
+  box-shadow: none !important;
+}
+.bg-glass {
+  width: 250px;
+  height: 65px;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffffff !important;
+  box-sizing: border-box;
+  backdrop-filter: blur(7px);
+  /* Note: backdrop-filter has minimal browser support */
+  transition: 0.3s ease-in-out !important;
+}
+.bg-main{  
+  background-size: cover;
+  background-attachment: fixed;
+    clip-path: polygon(0 0%, 100% 0, 100% 99%, 0 80%)
+}
+.bg-alpha {
+  background: url("../img/background/bg-alpha.png") no-repeat;
+  height: 659px;
+  background-size: cover;
+  background-attachment: fixed;
+  clip-path: polygon(0 21%, 100% 0, 100% 100%, 0 80%);
+}
+.bg-beta {
+  background: url("../img/background/bg-beta.png") no-repeat;
+  height: 659px;
+  background-size: cover;
+  background-attachment: fixed;
+  clip-path: polygon(0 0, 100% 20%, 100% 80%, 0 100%);
+}
+.bg-charlei {
+  background: url("../img/background/cta.png") no-repeat;
+  height: 242px;
+  background-size: cover;
+  background-position: bottom;
+}
+.text-orange {
+  color: #ff8800;
+}
+.text-gray {
+  color: #666666;
+}
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.fs-26{
+  font-size: 26px;
+}
+.btn-orange {
+  color: #fff !important;
+  background: #ff8800 !important;
+}
+.btn-orange:hover {
+  background: #434343 !important;
+}
+.btn-outline-orange{
+  color: #000 !important;
+  border-color: #ff8800 !important;
+}
+.btn-outline-orange.active{
+  background-color: #FF8800 !important;
+  border-color: #ff8800 !important;
+  color: #fff !important;
+}
+.bg-grey{
+  background-color: #EDEDED;
+}
+.blue-container{
+  background: linear-gradient(159.26deg, #2739A1 57.55%, #0D1932 98.82%);
+  border-radius: 20px;
+  color: #ffffff;  
+}
+.blue-container p{
+  opacity: 50%;
+  color: #ffffff;  
+}
+.bg-footer {
+  /* width: 1440px; */
+  min-height: 293px;
+  background: linear-gradient(270deg, #1d2970 0%, #0c1830 100%);
+}
+.rounded-20{
+  border-radius: 20px;
+}
+.sub-footer {
+  /* width: 100%; */
+  min-height: 67px;
+  background: #1b1818;
+}
+
+#myVideo {
+  width: 100%;
+  filter: brightness(50%);
+}
+a .text-underline:hover {
+  text-decoration: underline;
+}
+.h-200 {
+  height: 200px;
+}
+.w-750 {
+  width: 750px;
+}
+.material-symbols-outlined {
+  color: #FF8800;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.align-icon{
+  position: relative;
+  top: -2px;
+}
+/* Responsive */
+@media (min-width: 320px) {
+ .right-side-text, .left-side-text{
+    display: none;
+  }
+}
+
+@media (min-width: 480px) {
+  .right-side-text, .right-side-text::after, .left-side-text, .left-side-text::after{
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .right-side-text, .right-side-text::after, .left-side-text, .left-side-text::after{
+    display: none;
+  }
+  #myVideo {
+    margin-top: -100px;
+  }
+}
+@media (min-width: 992px) {
+  .right-side-text, .right-side-text::after, .left-side-text, .left-side-text::after{
+    display: none;
+  }
+  #myVideo {
+    margin-top: -100px;
+  }
+}
+@media (min-width: 1200px) {
+  .right-side-text, .right-side-text::after, .left-side-text, .left-side-text::after{
+    display: block;
+  }
+  #myVideo {
+    margin-top: -100px;
+  }
+}
