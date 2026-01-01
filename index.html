@@ -494,7 +494,7 @@
         <div class="sub-footer py-3 px-5 mt-4" style="bottom: 0px;">
             <div class="row text-white align-items-center">
                 <div class="col-md text-md-left text-center">
-                    Copyright ©2021 all right reserved
+                    Copyright © <span id="year"></span> All rights reserved
                 </div>
                 <div class="col-md text-md-right text-center">
                     <a href="https://www.linkedin.com/in/raymondweb/" class="text-white">
@@ -524,34 +524,40 @@
     <!-- End of HubSpot Embed Code -->
 
     <script>
-        // Currency toggle logic using Bootstrap switch
-        document.addEventListener('DOMContentLoaded', function () {
-            var switchInput = document.getElementById('customSwitch1');
-            var currencyLabel = document.getElementById('currencyLabel');
-            var prices = document.querySelectorAll('.price');
+  document.addEventListener('DOMContentLoaded', function () {
 
-            // Default to PHP
-            prices.forEach(function (el) {
-                el.textContent = '₱' + el.getAttribute('data-php');
-            });
+    // Auto year
+    document.getElementById('year').textContent = new Date().getFullYear();
 
-            switchInput.addEventListener('change', function () {
-                if (switchInput.checked) {
-                    // Show USD
-                    prices.forEach(function (el) {
-                        el.textContent = '$' + el.getAttribute('data-usd');
-                    });
-                    currencyLabel.textContent = 'Dollar (USD)';
-                } else {
-                    // Show PHP
-                    prices.forEach(function (el) {
-                        el.textContent = '₱' + el.getAttribute('data-php');
-                    });
-                    currencyLabel.textContent = 'Pesos (PHP)';
-                }
-            });
+    // Currency toggle logic
+    var switchInput = document.getElementById('customSwitch1');
+    var currencyLabel = document.getElementById('currencyLabel');
+    var prices = document.querySelectorAll('.price');
+
+    // Default to PHP
+    prices.forEach(function (el) {
+      el.textContent = '₱' + el.getAttribute('data-php');
+    });
+
+    switchInput.addEventListener('change', function () {
+      if (switchInput.checked) {
+        // USD
+        prices.forEach(function (el) {
+          el.textContent = '$' + el.getAttribute('data-usd');
         });
-    </script>
+        currencyLabel.textContent = 'Dollar (USD)';
+      } else {
+        // PHP
+        prices.forEach(function (el) {
+          el.textContent = '₱' + el.getAttribute('data-php');
+        });
+        currencyLabel.textContent = 'Pesos (PHP)';
+      }
+    });
+
+  });
+</script>
+
 </body>
 
 </html>
