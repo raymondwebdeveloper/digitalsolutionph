@@ -1,563 +1,732 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Solution | Lead Generation, Web Design & Development</title>
-    <meta name="description"
-        content="Digital Solution offers expert web design, development, lead generation, and optimization services to help your business succeed online.">
-    <link rel="canonical" href="https://digitalsolutionph.co/">
-    <link rel="shortcut icon" href="/assets/img/logo/digitalSolution_icon.svg" type="image/x-icon">
+    <meta
+      name="description"
+      content="Digital Solution offers expert web design, development, lead generation, and optimization services to help your business succeed online." />
+    <link rel="canonical" href="https://digitalsolutionph.co/" />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/logo/digitalSolution_icon.svg"
+      type="image/x-icon" />
 
     <!-- meta og and twitter tags -->
-    <meta property="og:locale" content="en_US">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Digital Solution | Lead Generation, Web Design & Development">
-    <meta property="og:description"
-        content="Digital Solution offers expert web design, development, lead generation, and optimization services to help your business succeed online.">
-    <meta property="og:url" content="https://staging-lead-gen.netlify.app/">
-    <meta property="og:site_name" content="Digital Solution">
-    <meta property="og:image" content="assets/images/img/img_about_1.jpg">
-    <meta property="og:image:secure_url" content="assets/images/img/img_about_1.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:description"
-        content="Digital Solution offers expert web design, development, lead generation, and optimization services to help your business succeed online.">
-    <meta name="twitter:title" content="Digital Solution | Lead Generation, Web Design & Development">
-    <meta name="twitter:image" content="assets/images/img/img_about_1.jpg">
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Digital Solution | Lead Generation, Web Design & Development" />
+    <meta
+      property="og:description"
+      content="Digital Solution offers expert web design, development, lead generation, and optimization services to help your business succeed online." />
+    <meta property="og:url" content="https://staging-lead-gen.netlify.app/" />
+    <meta property="og:site_name" content="Digital Solution" />
+    <meta property="og:image" content="assets/images/img/img_about_1.jpg" />
+    <meta
+      property="og:image:secure_url"
+      content="assets/images/img/img_about_1.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:description"
+      content="Digital Solution offers expert web design, development, lead generation, and optimization services to help your business succeed online." />
+    <meta
+      name="twitter:title"
+      content="Digital Solution | Lead Generation, Web Design & Development" />
+    <meta name="twitter:image" content="assets/images/img/img_about_1.jpg" />
 
     <!-- css -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous" />
 
     <!-- Google icon -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=check_circle" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=check_circle" />
+  </head>
 
-
-
-</head>
-
-<body>
+  <body>
     <div id="home"></div>
-    <nav class="navbar navbar-expand-lg navbar-dark position-absolute w-100 position-fixed bg-dark"
-        style="z-index: 10; opacity: 0.9;">
-        <a href="#" class="nav-link">
-            <img src="assets/img/logo/logo.svg" alt="">
-            <span class="text-white fs-40 bold ml-3">DIGITAL SOLUTION</span>
-        </a>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark position-absolute w-100 position-fixed bg-dark"
+      style="z-index: 10; opacity: 0.9">
+      <a href="#" class="nav-link">
+        <img src="assets/img/logo/logo.svg" alt="" />
+        <span class="text-white fs-40 bold ml-3">DIGITAL SOLUTION</span>
+      </a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto text-uppercase">
-                <li class="nav-item active">
-                    <a class="px-3 mx-1 text-white" href="#home">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="px-3 mx-1 text-white" href="#service">services</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="px-3 mx-1 text-white" href="#project">projects</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="px-3 mx-1 text-white" href="#package">package plan</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="px-3 mx-1 text-white" href="#contact">contact</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="px-3 mx-1 text-white pos-1" href="login.html">
-                        <img src="../assets/img/logo/login.svg" class="align-icon" alt="">
-                    </a>
-                </li>
-            </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto text-uppercase">
+          <li class="nav-item active">
+            <a class="px-3 mx-1 text-white" href="#home">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="px-3 mx-1 text-white" href="#service">services</a>
+          </li>
+          <li class="nav-item active">
+            <a class="px-3 mx-1 text-white" href="#project">projects</a>
+          </li>
+          <li class="nav-item active">
+            <a class="px-3 mx-1 text-white" href="#package">package plan</a>
+          </li>
+          <li class="nav-item active">
+            <a class="px-3 mx-1 text-white" href="#contact">contact</a>
+          </li>
+          <li class="nav-item active">
+            <a class="px-3 mx-1 text-white pos-1" href="login.html">
+              <img
+                src="../assets/img/logo/login.svg"
+                class="align-icon"
+                alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-    <header class="d-xl-flex d-none justify-content-center position-absolute text-white w-100"
-        style="z-index: 9; height: 500px;">
-        <div class="m-auto text-center h-200 w-750 ">
-            <h1 class="mb-4 px-4 pt-xl-5 mt-xl-5 text-shadow h1">Your Website is an Investment in <br>
-                the Success of your Business.</h1>
-            <a href="#contact" class="btn btn-glass ">Let’s work together</a>
-            <span class="left-side-text"></span>
-        </div>
-
+    <header
+      class="d-xl-flex d-none justify-content-center position-absolute text-white w-100"
+      style="z-index: 9; height: 500px">
+      <div class="m-auto text-center h-200 w-750">
+        <h1 class="mb-4 px-4 pt-xl-5 mt-xl-5 text-shadow h1">
+          Your Website is an Investment in <br />
+          the Success of your Business.
+        </h1>
+        <a href="#contact" class="btn btn-glass">Let’s work together</a>
+        <span class="left-side-text"></span>
+      </div>
     </header>
 
     <div class="bg-main">
-        <video autoplay loop playsinline muted poster="assets/img/background/bg-main.png" id="myVideo">
-            <source src="assets/video/digital2.mp4" type="video/mp4">
-        </video>
+      <video
+        autoplay
+        loop
+        playsinline
+        muted
+        poster="assets/img/background/bg-main.png"
+        id="myVideo">
+        <source src="assets/video/digital2.mp4" type="video/mp4" />
+      </video>
     </div>
 
     <section class="text-center">
-
-        <div class="d-md-block d-none" style="transform: translateY(-200px); margin-bottom: -200px;">
-            <img src="assets/img/object/laptop.png" class="img-fluid px-5" alt="Laptop showing web design">
-        </div>
-        <div class="d-md-none d-block" style="transform: translateY(-50px); margin-bottom: -50px;">
-            <img src="assets/img/object/laptop.png" class="img-fluid px-5" alt="Laptop showing web design">
-        </div>
-
+      <div
+        class="d-md-block d-none"
+        style="transform: translateY(-200px); margin-bottom: -200px">
+        <img
+          src="assets/img/object/laptop.png"
+          class="img-fluid px-5"
+          alt="Laptop showing web design" />
+      </div>
+      <div
+        class="d-md-none d-block"
+        style="transform: translateY(-50px); margin-bottom: -50px">
+        <img
+          src="assets/img/object/laptop.png"
+          class="img-fluid px-5"
+          alt="Laptop showing web design" />
+      </div>
     </section>
 
     <section class="bg-alpha">
-        <div class="d-flex justify-content-center text-white h-100" style="z-index: 9; height: 370px;">
-            <div class="m-auto text-center">
-                <p class="mb-4 px-4 text-shadow h1">Your Website is an Investment in <br>
-                    the Success of your Business.</p>
-                <a href="#contact" class="btn btn-glass ">Let’s work together</a>
-                <span class=" left-side-text2"></span>
-            </div>
-
+      <div
+        class="d-flex justify-content-center text-white h-100"
+        style="z-index: 9; height: 370px">
+        <div class="m-auto text-center">
+          <p class="mb-4 px-4 text-shadow h1">
+            Your Website is an Investment in <br />
+            the Success of your Business.
+          </p>
+          <a href="#contact" class="btn btn-glass">Let’s work together</a>
+          <span class="left-side-text2"></span>
         </div>
-        <div id="service"></div>
+      </div>
+      <div id="service"></div>
     </section>
 
     <section class="bg-white pb-5">
-        <div class="container mt-5">
-            <div class="row align-items-center">
-                <div class="col-md px-4">
-                    <img src="assets/img/services/web.png" class="img-fluid" alt="Web Design and Development">
-                </div>
-                <div class="col-md px-4">
-                    <h3 class="text-orange text-uppercase">
-                        WEB DEsign & DEVELOpment
-                    </h3>
-                    <p>
-                        We cater for your complete range of online requirements, from small custom business websites, up
-                        to large software systems built on a microservices architecture. Our expertise is vast, and
-                        includes having built online food ordering systems, eCommerce sites, golf course management
-                        systems, courier service mobile apps, inventory systems, real estate sites, hotel booking
-                        systems, to mention a few.
-                    </p>
-                    <a href="#contact" class="btn btn-orange">Contact Us</a>
-                </div>
-            </div>
+      <div class="container mt-5">
+        <div class="row align-items-center">
+          <div class="col-md px-4">
+            <img
+              src="assets/img/services/web.png"
+              class="img-fluid"
+              alt="Web Design and Development" />
+          </div>
+          <div class="col-md px-4">
+            <h3 class="text-orange text-uppercase">WEB DEsign & DEVELOpment</h3>
+            <p>
+              We cater for your complete range of online requirements, from
+              small custom business websites, up to large software systems built
+              on a microservices architecture. Our expertise is vast, and
+              includes having built online food ordering systems, eCommerce
+              sites, golf course management systems, courier service mobile
+              apps, inventory systems, real estate sites, hotel booking systems,
+              to mention a few.
+            </p>
+            <a href="#contact" class="btn btn-orange">Contact Us</a>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="bg-beta">
-        <div class="d-flex justify-content-center text-white h-100" style="z-index: 9; height: 370px;">
-            <div class="m-auto text-center h-200 w-750">
-                <p class="mb-4 px-4 text-shadow h1">Your Website is an Investment in <br>
-                    the Success of your Business.</p>
-                <a href="#contact" class="btn btn-glass ">Let’s work together</a>
-            </div>
+      <div
+        class="d-flex justify-content-center text-white h-100"
+        style="z-index: 9; height: 370px">
+        <div class="m-auto text-center h-200 w-750">
+          <p class="mb-4 px-4 text-shadow h1">
+            Your Website is an Investment in <br />
+            the Success of your Business.
+          </p>
+          <a href="#contact" class="btn btn-glass">Let’s work together</a>
         </div>
+      </div>
     </section>
 
     <section class="bg-white pb-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md p-4 order-md-1 order-2">
-                    <h3 class="text-orange text-uppercase">
-                        Web Optimization
-                    </h3>
-                    <p>
-                        Web optimization focuses on improving your website’s speed, performance, and overall user
-                        experience.
-                        A well-optimized site loads faster, works smoothly on all devices, and keeps visitors engaged,
-                        which can help increase conversions and customer satisfaction.
-                    </p>
-                    <a href="#contact" class="btn btn-orange">Contact Us</a>
-                </div>
-                <div class="col-md pt-4 px-4 order-md-2 order-1">
-                    <img src="assets/img/services/seo.png" class="img-fluid" alt="Lead Generation Service">
-                </div>
-            </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md p-4 order-md-1 order-2">
+            <h3 class="text-orange text-uppercase">Web Optimization</h3>
+            <p>
+              Web optimization focuses on improving your website’s speed,
+              performance, and overall user experience. A well-optimized site
+              loads faster, works smoothly on all devices, and keeps visitors
+              engaged, which can help increase conversions and customer
+              satisfaction.
+            </p>
+            <a href="#contact" class="btn btn-orange">Contact Us</a>
+          </div>
+          <div class="col-md pt-4 px-4 order-md-2 order-1">
+            <img
+              src="assets/img/services/seo.png"
+              class="img-fluid"
+              alt="Lead Generation Service" />
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="bg-white pb-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md px-4">
-                    <img src="assets/img/services/lead.png" class="img-fluid" alt="Lead Generation Service">
-                </div>
-                <div class="col px-4">
-                    <h3 class="text-orange text-uppercase">
-                        Lead Generation
-                    </h3>
-                    <p>
-                        We process of attracting prospects to your business and increasing their interest through
-                        nurturing, all with the end goal of converting them into a customer. Some ways to generate leads
-                        are through job applications, blog posts, coupons, live events, and online content.
-                    </p>
-                    <a href="#contact" class="btn btn-orange">Contact Us</a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md px-4">
+            <img
+              src="assets/img/services/lead.png"
+              class="img-fluid"
+              alt="Lead Generation Service" />
+          </div>
+          <div class="col px-4">
+            <h3 class="text-orange text-uppercase">Lead Generation</h3>
+            <p>
+              We process of attracting prospects to your business and increasing
+              their interest through nurturing, all with the end goal of
+              converting them into a customer. Some ways to generate leads are
+              through job applications, blog posts, coupons, live events, and
+              online content.
+            </p>
+            <a href="#contact" class="btn btn-orange">Contact Us</a>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="project" class="bg-dark py-5">
-        <h3 class="text-orange text-uppercase text-center mb-4 pb-4 mt-5">
-            Clients Web Projects
-        </h3>
-        <div id="carouselExampleCaptions" class="carousel slide carousel-fade pb-5" data-ride="carousel">
-            <ol class="carousel-indicators ">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="8"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <a href="https://staging-lead-gen.netlify.app/" target="_blank">
-                        <img src="assets/img/clients/1.png" class="d-block m-auto img-fluid px-4" alt="...">
-                    </a>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="text-orange text-uppercase">Lead Generation</h5>
-                        <p class="text-orange">https://staging-lead-gen.netlify.app/</p>
-                    </div>
-
-                </div>
-                <div class="carousel-item">
-                    <a href="https://www.shopinspect.com/" target="_blank">
-                        <img src="assets/img/clients/2.png" class="d-block m-auto img-fluid px-4" alt="...">
-                    </a>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="text-orange text-uppercase">shopinspect</h5>
-                        <p class="text-orange">https://www.shopinspect.com/</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <a href="https://anbt.netlify.app/" target="_blank">
-                        <img src="assets/img/clients/4.png" class="d-block m-auto img-fluid px-4" alt="...">
-                    </a>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="text-orange text-uppercase">ANBT</h5>
-                        <p class="text-orange">https://anbt.netlify.app/</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <a href="https://ianisdigital.netlify.app/" target="_blank">
-                        <img src="assets/img/clients/5.png" class="d-block m-auto img-fluid px-4" alt="...">
-                    </a>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="text-orange text-uppercase">IANisdigital</h5>
-                        <p class="text-orange">https://ianisdigital.netlify.app/</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <a href="https://owards.io/" target="_blank">
-                        <img src="assets/img/clients/6.png" class="d-block m-auto img-fluid px-4" alt="...">
-                    </a>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="text-orange text-uppercase">owards</h5>
-                        <p class="text-orange">https://owards.io/</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <a href="https://www.marketermagic.com/" target="_blank">
-                        <img src="assets/img/clients/7.png" class="d-block  m-auto img-fluid px-4" alt="...">
-                    </a>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="text-orange text-uppercase">marketermagic</h5>
-                        <p class="text-orange">https://www.marketermagic.com/</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <a href="https://www.zonbase.com/" target="_blank">
-                        <img src="assets/img/clients/8.png" class="d-block m-auto img-fluid px-4" alt="...">
-                    </a>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="text-orange text-uppercase">zonbase</h5>
-                        <p class="text-orange">https://www.zonbase.com/</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <a href="https://luikartproperties.com/" target="_blank">
-                        <img src="assets/img/clients/9.png" class="d-block m-auto img-fluid px-4" alt="...">
-                    </a>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="text-orange text-uppercase">luikart properties</h5>
-                        <p class="text-orange">https://luikartproperties.com/</p>
-                    </div>
-                </div>
-
+      <h3 class="text-orange text-uppercase text-center mb-4 pb-4 mt-5">
+        Clients Web Projects
+      </h3>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide carousel-fade pb-5"
+        data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleCaptions"
+            data-slide-to="0"
+            class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="8"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="https://staging-lead-gen.netlify.app/" target="_blank">
+              <img
+                src="assets/img/clients/1.png"
+                class="d-block m-auto img-fluid px-4"
+                alt="..." />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-orange text-uppercase">Lead Generation</h5>
+              <p class="text-orange">https://staging-lead-gen.netlify.app/</p>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.shopinspect.com/" target="_blank">
+              <img
+                src="assets/img/clients/2.png"
+                class="d-block m-auto img-fluid px-4"
+                alt="..." />
             </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-orange text-uppercase">shopinspect</h5>
+              <p class="text-orange">https://www.shopinspect.com/</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="https://anbt.netlify.app/" target="_blank">
+              <img
+                src="assets/img/clients/4.png"
+                class="d-block m-auto img-fluid px-4"
+                alt="..." />
             </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-orange text-uppercase">ANBT</h5>
+              <p class="text-orange">https://anbt.netlify.app/</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="https://ianisdigital.netlify.app/" target="_blank">
+              <img
+                src="assets/img/clients/5.png"
+                class="d-block m-auto img-fluid px-4"
+                alt="..." />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-orange text-uppercase">IANisdigital</h5>
+              <p class="text-orange">https://ianisdigital.netlify.app/</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="https://owards.io/" target="_blank">
+              <img
+                src="assets/img/clients/6.png"
+                class="d-block m-auto img-fluid px-4"
+                alt="..." />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-orange text-uppercase">owards</h5>
+              <p class="text-orange">https://owards.io/</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.marketermagic.com/" target="_blank">
+              <img
+                src="assets/img/clients/7.png"
+                class="d-block m-auto img-fluid px-4"
+                alt="..." />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-orange text-uppercase">marketermagic</h5>
+              <p class="text-orange">https://www.marketermagic.com/</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.zonbase.com/" target="_blank">
+              <img
+                src="assets/img/clients/8.png"
+                class="d-block m-auto img-fluid px-4"
+                alt="..." />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-orange text-uppercase">zonbase</h5>
+              <p class="text-orange">https://www.zonbase.com/</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="https://luikartproperties.com/" target="_blank">
+              <img
+                src="assets/img/clients/9.png"
+                class="d-block m-auto img-fluid px-4"
+                alt="..." />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-orange text-uppercase">luikart properties</h5>
+              <p class="text-orange">https://luikartproperties.com/</p>
+            </div>
+          </div>
         </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </section>
 
     <section id="package" class="bg-grey py-5 px-4">
-        <h3 class="text-orange text-uppercase text-center mb-4 pb-4 mt-5">
-            Package Plan
-        </h3>
-        <div class="text-center mb-4">
-            <label class="mr-2 font-weight-bold">Show prices in:</label>
-            <div class="custom-control custom-switch d-inline-block align-middle">
-                <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                <label class="custom-control-label" for="customSwitch1" id="currencyLabel">Pesos (PHP)</label>
-            </div>
+      <h3 class="text-orange text-uppercase text-center mb-4 pb-4 mt-5">
+        Package Plan
+      </h3>
+      <div class="text-center mb-4">
+        <label class="mr-2 font-weight-bold">Show prices in:</label>
+        <div class="custom-control custom-switch d-inline-block align-middle">
+          <input
+            type="checkbox"
+            class="custom-control-input"
+            id="customSwitch1" />
+          <label
+            class="custom-control-label"
+            for="customSwitch1"
+            id="currencyLabel"
+            >Pesos (PHP)</label
+          >
         </div>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md col-12 mb-4 p-4 bg-white rounded-20 shadow">
-                    <div class="">
-                        <h3 class="font-weight-bold">Web Starter</h3>
-                        <p class="text-gray">Perfect for startups and small businesses.</p>
-                        <div class="d-flex align-items-center mb-2">
-                            <span class="material-symbols-outlined mr-2">
-                                check_circle
-                            </span> Professional website design 4 pages
-                        </div>
-                        <div class="d-flex align-items-center  mb-2">
-                            <span class="material-symbols-outlined mr-2">
-                                check_circle
-                            </span>Estimated turnaround: 10 days
-                        </div>
-                        <div class="d-flex align-items-center  mb-2">
-                            <span class="material-symbols-outlined mr-2">
-                                check_circle
-                            </span>Mobile-Friendly
-                        </div>
-                        <div class="d-flex align-items-center  mb-2">
-                            <span class="material-symbols-outlined mr-2">
-                                check_circle
-                            </span> SEO - Basic
-                        </div>
-                        <div class="font-weight-bold fs-26 my-3 price" data-usd="250" data-php="5,000"> $250</div>
-                        <a href="https://www.paypal.com/ncp/payment/LERWCHNGJWN5L" class="btn btn-orange">Choose
-                            Plan</a>
-                        <a href="https://www.paypal.com/ncp/payment/UJSPW8PSCJFNY" class="d-none">Choose
-                            Plan</a>
-                    </div>
-                </div>
-                <div class="col-md col-12 py-5 px-4 mx-md-4 mb-4 blue-container">
-                    <h3 class="font-weight-bold">Premium</h3>
-                    <p>Best for established brands. Includes unlimited pages creation</p>
-                    <div class="d-flex align-items-center mb-2">
-                        <span class="material-symbols-outlined mr-2 bg-white rounded-circle">
-                            check_circle
-                        </span> Everything in Advance Plan
-                    </div>
-                    <div class="d-flex align-items-center  mb-2">
-                        <span class="material-symbols-outlined mr-2 bg-white rounded-circle">
-                            check_circle
-                        </span> Unlimited page creation
-                    </div>
-
-                    <div class="d-flex align-items-center  mb-2">
-                        <span class="material-symbols-outlined mr-2 bg-white rounded-circle">
-                            check_circle
-                        </span> Estimated turnaround: 30 days
-                    </div>
-
-                    <div class="d-flex align-items-center  mb-2">
-                        <span class="material-symbols-outlined mr-2 bg-white rounded-circle">
-                            check_circle
-                        </span>Web optimization
-                    </div>
-                    <div class="d-flex align-items-center  mb-2">
-                        <span class="material-symbols-outlined mr-2 bg-white rounded-circle">
-                            check_circle
-                        </span>Advanced lead generation funnel
-                    </div>
-
-                    <div class="font-weight-bold fs-26 my-3 price" data-usd="1,199" data-php="40,000"> $1,199</div>
-                    <a href="https://www.paypal.com/ncp/payment/57695JRTA25LS" class="btn btn-orange">Choose Plan</a>
-                    <a href="https://www.paypal.com/ncp/payment/NN6FG9JKA3AXJ" class="d-none">Choose Plan</a>
-                </div>
-                <div class="col-md col-12 mb-4 p-4 bg-white rounded-20 shadow">
-                    <div class="">
-                        <h3 class="font-weight-bold">Advance</h3>
-                        <p class="text-gray">Ideal for growing businesses. Includes a 10-page website with blog</p>
-                        <div class="d-flex align-items-center mb-2">
-                            <span class="material-symbols-outlined mr-2">
-                                check_circle
-                            </span> Professional website design 8 pages
-                        </div>
-                        <div class="d-flex align-items-center  mb-2">
-                            <span class="material-symbols-outlined mr-2">
-                                check_circle
-                            </span>Estimated turnaround: 15 days
-                        </div>
-                        <div class="d-flex align-items-center  mb-2">
-                            <span class="material-symbols-outlined mr-2">
-                                check_circle
-                            </span>Mobile-Friendly
-                        </div>
-                        <div class="d-flex align-items-center  mb-2">
-                            <span class="material-symbols-outlined mr-2">
-                                check_circle
-                            </span> SEO - Basic
-                        </div>
-                        <div class="font-weight-bold fs-26 my-3 price" data-usd="499" data-php="25,000"> $499</div>
-                        <a href="https://www.paypal.com/ncp/payment/83X27JM32LTQE" class="btn btn-orange">Choose
-                            Plan</a>
-                        <a href="https://www.paypal.com/ncp/payment/MXBSYE9D29B8W" class="d-none">Choose
-                            Plan</a>
-                    </div>
-                </div>
+      </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md col-12 mb-4 p-4 bg-white rounded-20 shadow">
+            <div class="">
+              <h3 class="font-weight-bold">Web Starter</h3>
+              <p class="text-gray">
+                Perfect for startups and small businesses.
+              </p>
+              <div class="d-flex align-items-center mb-2">
+                <span class="material-symbols-outlined mr-2">
+                  check_circle
+                </span>
+                Professional website design 4 pages
+              </div>
+              <div class="d-flex align-items-center mb-2">
+                <span class="material-symbols-outlined mr-2">
+                  check_circle </span
+                >Estimated turnaround: 10 days
+              </div>
+              <div class="d-flex align-items-center mb-2">
+                <span class="material-symbols-outlined mr-2">
+                  check_circle </span
+                >Mobile-Friendly
+              </div>
+              <div class="d-flex align-items-center mb-2">
+                <span class="material-symbols-outlined mr-2">
+                  check_circle
+                </span>
+                SEO - Basic
+              </div>
+              <div
+                class="font-weight-bold fs-26 my-3 price"
+                data-usd="250"
+                data-php="5,000">
+                $250
+              </div>
+              <a
+                href="https://www.paypal.com/ncp/payment/LERWCHNGJWN5L"
+                class="btn btn-orange"
+                >Choose Plan</a
+              >
+              <a
+                href="https://www.paypal.com/ncp/payment/UJSPW8PSCJFNY"
+                class="d-none"
+                >Choose Plan</a
+              >
             </div>
-        </div>
-        <h3 class="text-orange text-uppercase text-center mb-4 pb-4 mt-5">
-            Promo
-        </h3>
-        <div class="row">
-            <div class="col"></div>
-            <div class="col-auto">
-                <div class="d-flex align-items-center p-4 bg-white rounded-20 shadow">
-                    <h3 class="font-weight-bold">Donation</h3>
-                    <div class="d-flex align-items-center mx-4">
-                        <span class="material-symbols-outlined mr-2">
-                            check_circle
-                        </span> Website | Landing Page
-                    </div>
-                    <a href="https://www.paypal.com/ncp/payment/BHUBH2YF6B3MS" class="btn btn-orange">Donate</a>
-                </div>
+          </div>
+          <div class="col-md col-12 py-5 px-4 mx-md-4 mb-4 blue-container">
+            <h3 class="font-weight-bold">Premium</h3>
+            <p>
+              Best for established brands. Includes unlimited pages creation
+            </p>
+            <div class="d-flex align-items-center mb-2">
+              <span
+                class="material-symbols-outlined mr-2 bg-white rounded-circle">
+                check_circle
+              </span>
+              Everything in Advance Plan
             </div>
-            <div class="col"></div>
+            <div class="d-flex align-items-center mb-2">
+              <span
+                class="material-symbols-outlined mr-2 bg-white rounded-circle">
+                check_circle
+              </span>
+              Unlimited page creation
+            </div>
+
+            <div class="d-flex align-items-center mb-2">
+              <span
+                class="material-symbols-outlined mr-2 bg-white rounded-circle">
+                check_circle
+              </span>
+              Estimated turnaround: 30 days
+            </div>
+
+            <div class="d-flex align-items-center mb-2">
+              <span
+                class="material-symbols-outlined mr-2 bg-white rounded-circle">
+                check_circle </span
+              >Web optimization
+            </div>
+            <div class="d-flex align-items-center mb-2">
+              <span
+                class="material-symbols-outlined mr-2 bg-white rounded-circle">
+                check_circle </span
+              >Advanced lead generation funnel
+            </div>
+
+            <div
+              class="font-weight-bold fs-26 my-3 price"
+              data-usd="1,199"
+              data-php="40,000">
+              $1,199
+            </div>
+            <a
+              href="https://www.paypal.com/ncp/payment/57695JRTA25LS"
+              class="btn btn-orange"
+              >Choose Plan</a
+            >
+            <a
+              href="https://www.paypal.com/ncp/payment/NN6FG9JKA3AXJ"
+              class="d-none"
+              >Choose Plan</a
+            >
+          </div>
+          <div class="col-md col-12 mb-4 p-4 bg-white rounded-20 shadow">
+            <div class="">
+              <h3 class="font-weight-bold">Advance</h3>
+              <p class="text-gray">
+                Ideal for growing businesses. Includes a 10-page website with
+                blog
+              </p>
+              <div class="d-flex align-items-center mb-2">
+                <span class="material-symbols-outlined mr-2">
+                  check_circle
+                </span>
+                Professional website design 8 pages
+              </div>
+              <div class="d-flex align-items-center mb-2">
+                <span class="material-symbols-outlined mr-2">
+                  check_circle </span
+                >Estimated turnaround: 15 days
+              </div>
+              <div class="d-flex align-items-center mb-2">
+                <span class="material-symbols-outlined mr-2">
+                  check_circle </span
+                >Mobile-Friendly
+              </div>
+              <div class="d-flex align-items-center mb-2">
+                <span class="material-symbols-outlined mr-2">
+                  check_circle
+                </span>
+                SEO - Basic
+              </div>
+              <div
+                class="font-weight-bold fs-26 my-3 price"
+                data-usd="499"
+                data-php="25,000">
+                $499
+              </div>
+              <a
+                href="https://www.paypal.com/ncp/payment/83X27JM32LTQE"
+                class="btn btn-orange"
+                >Choose Plan</a
+              >
+              <a
+                href="https://www.paypal.com/ncp/payment/MXBSYE9D29B8W"
+                class="d-none"
+                >Choose Plan</a
+              >
+            </div>
+          </div>
         </div>
+      </div>
+      <h3 class="text-orange text-uppercase text-center mb-4 pb-4 mt-5">
+        Promo
+      </h3>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-auto">
+          <div class="d-flex align-items-center p-4 bg-white rounded-20 shadow">
+            <h3 class="font-weight-bold">Donation</h3>
+            <div class="d-flex align-items-center mx-4">
+              <span class="material-symbols-outlined mr-2"> check_circle </span>
+              Website | Landing Page
+            </div>
+            <a
+              href="https://www.paypal.com/ncp/payment/BHUBH2YF6B3MS"
+              class="btn btn-orange"
+              >Donate</a
+            >
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
     </section>
 
     <section>
-        <img src="assets/img/services/platform.png" class="img-fluid w-100" alt="Digital Platform Services">
+      <img
+        src="assets/img/services/platform.png"
+        class="img-fluid w-100"
+        alt="Digital Platform Services" />
     </section>
 
     <section class="bg-charlei">
-        <div class="d-flex justify-content-center text-align-center text-white w-100 h-100 px-4">
-            <div class=" d-inline-block m-auto text-center">
-                <h2 class="d-inline-block">Let’s discuss how we can help your business grow</h2>
-                <a href="https://calendly.com/raymondwebdeveloper/new-meeting-1"
-                    class="btn btn-orange d-inline-block mb-2 mx-3 px-4">Set An Appointment with Us</a>
-            </div>
+      <div
+        class="calendly-inline-widget"
+        data-url="https://calendly.com/raymondwebdeveloper/new-meeting-1"
+        style="min-width: 320px; height: 700px"></div>
     </section>
 
     <footer id="contact" class="bg-footer pt-4">
-        <div class="px-5">
-            <div class="row">
-                <div class="col-md text-md-left text-center">
-                    <img src="assets/img/logo/logo.svg" class="img-fluid mb-md-0 mb-4" alt="Digital Solution Logo">
-                    <span class="text-white">DIGITAL COMPANY</span>
-                </div>
-                <div class="col-md text-white text-md-left text-center">
-                    <h4>Related Links</h4>
-                    <ul class="list-unstyled text-white">
-                        <li class="pb-2">
-                            <a href="#home" class="text-white">Home</a>
-                        </li>
-                        <li class="pb-2">
-                            <a href="#service" class="text-white">Service</a>
-                        </li>
-                        <li class="pb-2">
-                            <a href="#project" class="text-white">Projects</a>
-                        </li>
-                        <li class="pb-2">
-                            <a href="#contact" class="text-white">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md text-white text-md-left text-center">
-                    <h4>Contact Info</h4>
-                    <ul class="list-unstyled text-white">
-                        <li class="pb-2">
-                            <a href="mailto:info@digitalsolutionph.co"
-                                class="text-white text-underline">info@digitalsolutionph.co</a>
-                        </li>
-                        <li class="pb-2">
-                            <div class="text-white">Malolos City, Philippines</div>
-                        </li>
-                        <li class="pb-2">
-                            <a href="https://calendly.com/raymondwebdeveloper/new-meeting-1" class="text-white">Set
-                                An
-                                Appointment with Us</a>
-                        </li>
-
-
-                    </ul>
-                </div>
-            </div>
+      <div class="px-5">
+        <div class="row">
+          <div class="col-md text-md-left text-center">
+            <img
+              src="assets/img/logo/logo.svg"
+              class="img-fluid mb-md-0 mb-4"
+              alt="Digital Solution Logo" />
+            <span class="text-white">DIGITAL COMPANY</span>
+          </div>
+          <div class="col-md text-white text-md-left text-center">
+            <h4>Related Links</h4>
+            <ul class="list-unstyled text-white">
+              <li class="pb-2">
+                <a href="#home" class="text-white">Home</a>
+              </li>
+              <li class="pb-2">
+                <a href="#service" class="text-white">Service</a>
+              </li>
+              <li class="pb-2">
+                <a href="#project" class="text-white">Projects</a>
+              </li>
+              <li class="pb-2">
+                <a href="#contact" class="text-white">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md text-white text-md-left text-center">
+            <h4>Contact Info</h4>
+            <ul class="list-unstyled text-white">
+              <li class="pb-2">
+                <a
+                  href="mailto:info@digitalsolutionph.co"
+                  class="text-white text-underline"
+                  >info@digitalsolutionph.co</a
+                >
+              </li>
+              <li class="pb-2">
+                <div class="text-white">Malolos City, Philippines</div>
+              </li>
+              <li class="pb-2">
+                <a
+                  href="https://calendly.com/raymondwebdeveloper/new-meeting-1"
+                  class="text-white"
+                  >Set An Appointment with Us</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="sub-footer py-3 px-5 mt-4" style="bottom: 0px;">
-            <div class="row text-white align-items-center">
-                <div class="col-md text-md-left text-center">
-                    Copyright © <span id="year"></span> All rights reserved
-                </div>
-                <div class="col-md text-md-right text-center">
-                    <a href="https://www.linkedin.com/in/raymondweb/" class="text-white">
-                        Developer
-                    </a>
-                </div>
-            </div>
+      </div>
+      <div class="sub-footer py-3 px-5 mt-4" style="bottom: 0px">
+        <div class="row text-white align-items-center">
+          <div class="col-md text-md-left text-center">
+            Copyright © <span id="year"></span> All rights reserved
+          </div>
+          <div class="col-md text-md-right text-center">
+            <a
+              href="https://www.linkedin.com/in/raymondweb/"
+              class="text-white">
+              Developer
+            </a>
+          </div>
         </div>
+      </div>
     </footer>
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"></script>
     <!-- Start of HubSpot Embed Code -->
-    <script type="text/javascript" id="hs-script-loader" async defer
-        src="//js-na2.hs-scripts.com/243828462.js"></script>
+    <script
+      type="text/javascript"
+      id="hs-script-loader"
+      async
+      defer
+      src="//js-na2.hs-scripts.com/243828462.js"></script>
     <!-- End of HubSpot Embed Code -->
 
     <script>
-  document.addEventListener('DOMContentLoaded', function () {
+      document.addEventListener("DOMContentLoaded", function () {
+        // Auto year
+        document.getElementById("year").textContent = new Date().getFullYear();
 
-    // Auto year
-    document.getElementById('year').textContent = new Date().getFullYear();
+        // Currency toggle logic
+        var switchInput = document.getElementById("customSwitch1");
+        var currencyLabel = document.getElementById("currencyLabel");
+        var prices = document.querySelectorAll(".price");
 
-    // Currency toggle logic
-    var switchInput = document.getElementById('customSwitch1');
-    var currencyLabel = document.getElementById('currencyLabel');
-    var prices = document.querySelectorAll('.price');
-
-    // Default to PHP
-    prices.forEach(function (el) {
-      el.textContent = '₱' + el.getAttribute('data-php');
-    });
-
-    switchInput.addEventListener('change', function () {
-      if (switchInput.checked) {
-        // USD
+        // Default to PHP
         prices.forEach(function (el) {
-          el.textContent = '$' + el.getAttribute('data-usd');
+          el.textContent = "₱" + el.getAttribute("data-php");
         });
-        currencyLabel.textContent = 'Dollar (USD)';
-      } else {
-        // PHP
-        prices.forEach(function (el) {
-          el.textContent = '₱' + el.getAttribute('data-php');
+
+        switchInput.addEventListener("change", function () {
+          if (switchInput.checked) {
+            // USD
+            prices.forEach(function (el) {
+              el.textContent = "$" + el.getAttribute("data-usd");
+            });
+            currencyLabel.textContent = "Dollar (USD)";
+          } else {
+            // PHP
+            prices.forEach(function (el) {
+              el.textContent = "₱" + el.getAttribute("data-php");
+            });
+            currencyLabel.textContent = "Pesos (PHP)";
+          }
         });
-        currencyLabel.textContent = 'Pesos (PHP)';
-      }
-    });
+      });
+    </script>
 
-  });
-</script>
-
-</body>
-
+    <!-- calendly -->
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      async></script>
+  </body>
 </html>
